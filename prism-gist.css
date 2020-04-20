@@ -1,0 +1,63 @@
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+  direction: ltr;
+  color: #24292e;
+  /* color: #00ff00; */
+  word-wrap: normal;
+  white-space: pre;
+  tab-size: 4;
+}
+
+pre[class*="language-"] {
+  border: 1px solid;
+  border-color: #ddd #ddd #ccc;
+  border-radius: 3px;
+  padding: 1px 10px;
+}
+
+
+.token.punctuation
+{ color : #24292e!important; }
+
+.token.namespace,
+.token.class-name,
+.token.function
+{ color: #6f42c1!important; }
+
+.token.keyword
+{ color: #d73a49!important; }
+
+.token.comment
+{ color: #6a737d!important; }
+
+.token.string
+{ color: #032f62!important; }
+
+
+/* csharp */
+code.language-csharp > .token.return-type >
+.token.keyword
+{ color: #d73a49!important; }
+
+code.language-csharp > .token.class-name >
+.token.keyword
+{ color: #d73a49!important; }
+
+code.language-csharp > .token.class-name >
+.token.punctuation
+{ color: #24292e!important; }
+
+
+/* shell */
+code.language-shell >
+.token.shebang
+{ color: #6a737d!important; }
+
+code.language-shell >
+.token.builtin.class-name
+{ color: #005cc5!important; }
