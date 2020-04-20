@@ -1,3 +1,8 @@
+/**
+ * gist theme by kyubuns (https://kyubuns.dev)
+ * Inspired by GitHub Gist
+ */
+
 code[class*="language-"],
 pre[class*="language-"] {
   font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
